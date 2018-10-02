@@ -13,10 +13,5 @@
  *= require_tree .
  *= require_self
  */
-#search-bar{
-    input[type="submit"], input[type="button"], input[type="reset"], button, a.button {
-        background-color: #df0000;
-    }
 
-}
 
