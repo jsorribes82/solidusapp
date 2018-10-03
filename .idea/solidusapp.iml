@@ -25,6 +25,35 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="solidus_gem_testing (v0.0.1) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="2" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../solidus_gem_testing/app" />
+          <root url="file://$MODULE_DIR$/../solidus_gem_testing/bin" />
+          <root url="file://$MODULE_DIR$/../solidus_gem_testing/lib" />
+          <root url="file://$MODULE_DIR$/../solidus_gem_testing/spec" />
+          <root url="file://$MODULE_DIR$/../solidus_gem_testing/.idea" />
+          <root url="file://$MODULE_DIR$/../solidus_gem_testing/config" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../solidus_gem_testing/app" />
+          <root url="file://$MODULE_DIR$/../solidus_gem_testing/bin" />
+          <root url="file://$MODULE_DIR$/../solidus_gem_testing/lib" />
+          <root url="file://$MODULE_DIR$/../solidus_gem_testing/spec" />
+          <root url="file://$MODULE_DIR$/../solidus_gem_testing/.idea" />
+          <root url="file://$MODULE_DIR$/../solidus_gem_testing/config" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/../solidus_gem_testing/bin" />
+          <root url="file://$MODULE_DIR$/../solidus_gem_testing/spec" />
+          <root url="file://$MODULE_DIR$/../solidus_gem_testing/.idea" />
+          <root url="file://$MODULE_DIR$/../solidus_gem_testing/config" />
+        </excluded>
+      </library>
+    </orderEntry>
     <orderEntry type="library" scope="PROVIDED" name="actioncable (v5.2.1, rbenv: 2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actionmailer (v5.2.1, rbenv: 2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actionpack (v5.2.1, rbenv: 2.5.1) [gem]" level="application" />
@@ -59,6 +88,8 @@
     <orderEntry type="library" scope="PROVIDED" name="coffee-script-source (v1.12.2, rbenv: 2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="concurrent-ruby (v1.0.5, rbenv: 2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="crass (v1.0.4, rbenv: 2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="delayed_job (v4.1.5, rbenv: 2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="delayed_job_active_record (v4.1.3, rbenv: 2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="devise (v4.5.0, rbenv: 2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="devise-encryptable (v0.2.0, rbenv: 2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="discard (v1.0.0, rbenv: 2.5.1) [gem]" level="application" />
@@ -77,6 +108,7 @@
     <orderEntry type="library" scope="PROVIDED" name="kaminari-actionview (v1.1.1, rbenv: 2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="kaminari-activerecord (v1.1.1, rbenv: 2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="kaminari-core (v1.1.1, rbenv: 2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="kaminari-i18n (v0.5.0, rbenv: 2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="listen (v3.1.5, rbenv: 2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="loofah (v2.2.2, rbenv: 2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mail (v2.7.0, rbenv: 2.5.1) [gem]" level="application" />
@@ -104,12 +136,14 @@
     <orderEntry type="library" scope="PROVIDED" name="rails (v5.2.1, rbenv: 2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails-dom-testing (v2.0.3, rbenv: 2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails-html-sanitizer (v1.0.4, rbenv: 2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rails-i18n (v5.1.1, rbenv: 2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="railties (v5.2.1, rbenv: 2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rake (v12.3.1, rbenv: 2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ransack (v2.0.1, rbenv: 2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rb-fsevent (v0.10.3, rbenv: 2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rb-inotify (v0.9.10, rbenv: 2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="responders (v2.4.0, rbenv: 2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="routing-filter (v0.6.2, rbenv: 2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ruby_dep (v1.5.0, rbenv: 2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rubyzip (v1.2.2, rbenv: 2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass (v3.6.0, rbenv: 2.5.1) [gem]" level="application" />
@@ -122,6 +156,7 @@
     <orderEntry type="library" scope="PROVIDED" name="solidus_backend (v2.7.0, rbenv: 2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="solidus_core (v2.7.0, rbenv: 2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="solidus_frontend (v2.7.0, rbenv: 2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="solidus_i18n (v2.0.0, rbenv: 2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="solidus_sample (v2.7.0, rbenv: 2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="solidus_support (v0.2.1, rbenv: 2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="spring (v2.0.2, rbenv: 2.5.1) [gem]" level="application" />
