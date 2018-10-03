@@ -11,7 +11,7 @@ namespace :change_prices_db do
   task :change_price_to_10_more => :environment do
       Spree::Variant.all.each do |t|
         puts t.sku
-        t.update_attributes(cost_price: t.cost_price*0.1 + t.cost_price)
+        t.delay.update_attributes(cost_price: t.cost_price*0.1 + t.cost_price)
         puts t.cost_price
       end
   end
