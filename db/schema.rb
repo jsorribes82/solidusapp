@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_10_03_074820) do
+ActiveRecord::Schema.define(version: 2018_10_03_092927) do
 
   create_table "active_storage_attachments", force: :cascade do |t|
     t.string "name", null: false
@@ -1281,6 +1281,7 @@ ActiveRecord::Schema.define(version: 2018_10_03_074820) do
     t.integer "tax_category_id"
     t.datetime "updated_at", precision: 6
     t.datetime "created_at", precision: 6
+    t.decimal "sale_price_final"
     t.index ["position"], name: "index_spree_variants_on_position"
     t.index ["product_id"], name: "index_spree_variants_on_product_id"
     t.index ["sku"], name: "index_spree_variants_on_sku"

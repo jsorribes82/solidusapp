@@ -25,6 +25,35 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="solidus_gem_testing (v0.0.1) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="2" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../solidus_gem_testing/app" />
+          <root url="file://$MODULE_DIR$/../solidus_gem_testing/bin" />
+          <root url="file://$MODULE_DIR$/../solidus_gem_testing/lib" />
+          <root url="file://$MODULE_DIR$/../solidus_gem_testing/spec" />
+          <root url="file://$MODULE_DIR$/../solidus_gem_testing/.idea" />
+          <root url="file://$MODULE_DIR$/../solidus_gem_testing/config" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../solidus_gem_testing/app" />
+          <root url="file://$MODULE_DIR$/../solidus_gem_testing/bin" />
+          <root url="file://$MODULE_DIR$/../solidus_gem_testing/lib" />
+          <root url="file://$MODULE_DIR$/../solidus_gem_testing/spec" />
+          <root url="file://$MODULE_DIR$/../solidus_gem_testing/.idea" />
+          <root url="file://$MODULE_DIR$/../solidus_gem_testing/config" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/../solidus_gem_testing/bin" />
+          <root url="file://$MODULE_DIR$/../solidus_gem_testing/spec" />
+          <root url="file://$MODULE_DIR$/../solidus_gem_testing/.idea" />
+          <root url="file://$MODULE_DIR$/../solidus_gem_testing/config" />
+        </excluded>
+      </library>
+    </orderEntry>
     <orderEntry type="library" scope="PROVIDED" name="actioncable (v5.2.1, rbenv: 2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actionmailer (v5.2.1, rbenv: 2.5.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actionpack (v5.2.1, rbenv: 2.5.1) [gem]" level="application" />

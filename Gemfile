@@ -42,6 +42,7 @@ gem 'rails-i18n', '~> 5.1'
 gem 'kaminari-i18n', '~> 0.5.0'
 gem 'routing-filter', '~> 0.6.0'
 gem 'delayed_job_active_record'
+gem 'solidus_gem_testing', :path => '../solidus_gem_testing'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

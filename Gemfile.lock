@@ -1,3 +1,9 @@
+PATH
+  remote: ../solidus_gem_testing
+  specs:
+    solidus_gem_testing (0.0.1)
+      solidus_core
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -375,6 +381,7 @@ DEPENDENCIES
   selenium-webdriver
   solidus
   solidus_auth_devise
+  solidus_gem_testing!
   solidus_i18n (~> 2.0)
   spring
   spring-watcher-listen (~> 2.0.0)
